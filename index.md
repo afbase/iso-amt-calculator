@@ -7,3 +7,4 @@ draft = false
 [taxonomies]
 +++
 
+<i class="fa-solid fa-user"></i>
