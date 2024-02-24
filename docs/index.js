@@ -20,16 +20,18 @@
 	var ordinaryTax = 0;
 	var payableTax = 0;
 
-	// Constants for 2016.
+	// Constants for 2024.
+	// TODO: need to fix break values
+	// TODO: need to fix mfs values
 	var exemption = {
 		'single': {
-			amount: 75900,
-			phaseout: 539900,
+			amount: 85700,
+			phaseout: 609350,
 			break: 206100
 		},
 		'married': {
-			amount: 118100,
-			phaseout: 1079800,
+			amount: 133300,
+			phaseout: 1218700,
 			break: 206100
 		},
 		'mfs': {
@@ -38,24 +40,25 @@
 			break: 103050
 		}
 	};
+	// TODO: need to update mfs
 	var ordinaryTaxRates = {
 		'single': {
 			'10': 0,
-			'12': 10275,
-			'22': 41775,
-			'24': 89075,
-			'32': 170050,
-			'35': 215950,
-			'37': 539900
+			'12': 11600,
+			'22': 47175,
+			'24': 100525,
+			'32': 191950,
+			'35': 243725
+			// '37': 539900
 		},
 		'married': {
 			'10': 0,
-			'12': 20550,
-			'22': 83550,
-			'24': 178150,
-			'32': 340100,
-			'35': 431900,
-			'37': 647850
+			'12': 23200,
+			'22': 94300,
+			'24': 201050,
+			'32': 383900,
+			'35': 487450
+			// '37': 647850
 		},
 		'mfs': {
 			'10': 0,
