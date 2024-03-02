@@ -8,3 +8,5 @@ draft = false
 +++
 
 <i class="fa-solid fa-user"></i>
+
+{{ iso_tax() }}
